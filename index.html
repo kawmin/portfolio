@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="top-header">
+  <h3 class="logo">My Portfolio</h3>
+
+  <nav class="nav-menu">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+    <a href="#cv">CV</a>
+    <button class="dark-toggle" onclick="toggleDark()">🌙</button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="hero-left">
+    <img src="images/profile.jpg" class="profile-pic">
+  </div>
+
+  <div class="hero-right">
+    <h1>Hi, I'm Kawmin Hadin 👋</h1>
+
+    <p class="subtitle">
+      Student | Developer | Learner
+    </p>
+
+    <p class="hero-desc">
+      I build real-world projects, explore new technologies, and improve step by step.
+      My goal is to become a strong software engineer.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#contact" class="hero-btn">Contact Me</a>
+      <a href="#projects" class="hero-btn secondary">View Projects</a>
+    </div>
+
+  </div>
+
+</section>
+
+<hr>
+
+<h2>My Personal Portfolio Website</h2>
+<p>
+  Welcome to my portfolio. Here I will show my education, skills, projects, CV, and contact information.
+</p>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a motivated student who is interested in learning, technology, research, and professional development.
+    I enjoy building real-world projects and improving my skills step by step.
+  </p>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <h2>Education</h2>
+
+  <div class="card">
+    <h3>B.Sc in Computer Science and Engineering</h3>
+    <p>
+      <a href="https://www.aiub.edu/" target="_blank" class="education-link">
+        American International University - Bangladesh (AIUB)
+      </a>
+    </p>
+    <p>Year: 2022 - Present</p>
+  </div>
+
+  <div class="card">
+    <h3>Higher Secondary Certificate (HSC)</h3>
+    <p>
+      <a href="https://cpscs.edu.bd/" target="_blank" class="education-link">
+        Cantonment Public School and College, Saidpur (CPSCS)
+      </a>
+    </p>
+    <p>Year: 2021</p>
+  </div>
+
+  <div class="card">
+    <h3>Secondary School Certificate (SSC)</h3>
+    <p>
+      <a href="https://cpscs.edu.bd/" target="_blank" class="education-link">
+        Cantonment Public School and College, Saidpur (CPSCS)
+      </a>
+    </p>
+    <p>Year: 2019</p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">Leadership</div>
+    <div class="skill-card">Microsoft Office</div>
+    <div class="skill-card">Java</div>
+    <div class="skill-card">C / C++ / C#</div>
+
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Video Editing</div>
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+
+    <div class="skill-card">Research Writing</div>
+    <div class="skill-card">Communication</div>
+    <div class="skill-card">Problem Solving</div>
+    <div class="skill-card">Data Analysis</div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio built using HTML & CSS with modern UI design.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Hospital Management System</h3>
+      <p>Java-based system for managing patients, doctors, and records.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Ambience Noise App</h3>
+      <p>C# project focused on audio processing and environment noise control.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Research Project</h3>
+      <p>Academic research work on real-world problem solving and analysis.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2>Experience</h2>
+
+  <div class="experience-card">
+    <h3>Internship</h3>
+    <p class="company-name">Not Done Yet</p>
+    <p class="experience-year">Year: TBA</p>
+  </div>
+
+  <div class="experience-card">
+    <h3>Volunteer Experience</h3>
+    <p>Math Olympiad (2018)</p>
+    <p>Biology Olympiad (2018-19)</p>
+    <p>AIUB Art Club (2022-25)</p>
+    <p>AIUB Photography Club (2023-25)</p>
+  </div>
+
+  <h3 class="sub-heading">Non-Professional Experience</h3>
+
+  <div class="experience-grid">
+
+    <div class="small-experience-card">
+      <h4>Secretary</h4>
+      <p>NDF-BD, Rangpur</p>
+      <span>2019 - 2021</span>
+    </div>
+
+    <div class="small-experience-card">
+      <h4>Secretary</h4>
+      <p>Prochesta Sheccha Shebi Shonggothon</p>
+      <span>2017 - Present</span>
+    </div>
+
+    <div class="small-experience-card">
+      <h4>College Prefect</h4>
+      <p>CPSCS</p>
+      <span>2019 - 2021</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section contact-section">
+
+  <h2>Contact Me</h2>
+
+  <div class="contact-grid">
+
+    <!-- EMAIL -->
+
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=kawmin207@email.com"
+   target="_blank"
+   class="contact-card">
+
+  📧 Email
+  <span>Open Gmail to send mail</span>
+
+</a>
+    <!-- PHONE -->
+    <a href="tel:+8801761449700" class="contact-card">
+      📞 Phone
+      <span>Click to call</span>
+    </a>
+
+    <!-- LINKEDIN -->
+    <a href="https://linkedin.com/in/YOUR-PROFILE" target="_blank" class="contact-card">
+      💼 LinkedIn
+      <span>Open profile</span>
+    </a>
+
+    <!-- FACEBOOK -->
+    <a href="https://facebook.com/YOUR-PROFILE" target="_blank" class="contact-card">
+      📘 Facebook
+      <span>Open profile</span>
+    </a>
+
+    <!-- LOCATION (KEPT SAME IDEA) -->
+    <a href="https://en.wikipedia.org/wiki/Bangladesh" target="_blank" class="contact-card">
+      📍 Location
+      <span>Bangladesh</span>
+    </a>
+
+  </div>
+
+</section>
+
+<!-- CV -->
+<section id="cv" class="section cv-section">
+  <h2>Download My CV</h2>
+
+  <p>Download my CV to know more about me.</p>
+
+  <a href="files/my-cv.pdf" class="cv-button" download>
+    Download CV
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© Thanks for visiting</p>
+</footer>
+
+<!-- ================= JS START ================= -->
+
+<script>
+/* ===== SCROLL ANIMATION (ONLY ONE CLEAN VERSION) ===== */
+document.addEventListener("DOMContentLoaded", () => {
+
+  const sections = document.querySelectorAll(".section");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  }, {
+    threshold: 0.15
+  });
+
+  sections.forEach(section => observer.observe(section));
+
+});
+</script>
+
+
+<script>
+/* ===== DARK MODE (FIXED + STORED) ===== */
+
+function toggleDark() {
+  document.body.classList.toggle("dark");
+
+  if (document.body.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
+  }
+}
+
+/* LOAD SAVED THEME */
+window.addEventListener("load", () => {
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+  }
+});
+</script>
+
+
+<script>
+/* ===== TYPING EFFECT ===== */
+
+const textArray = [
+  "Student",
+  "Developer",
+  "Learner",
+  "Problem Solver"
+];
+
+let index = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+function typeEffect() {
+  const el = document.getElementById("typing-text");
+  if (!el) return;
+
+  let current = textArray[index];
+
+  if (!isDeleting) {
+    el.textContent = current.substring(0, charIndex++);
+  } else {
+    el.textContent = current.substring(0, charIndex--);
+  }
+
+  if (!isDeleting && charIndex === current.length + 1) {
+    isDeleting = true;
+    setTimeout(typeEffect, 1000);
+    return;
+  }
+
+  if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    index = (index + 1) % textArray.length;
+  }
+
+  setTimeout(typeEffect, isDeleting ? 60 : 120);
+}
+
+typeEffect();
+</script>
+
+<!-- ================= JS END ================= -->
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/8801761449700?text=Hello%20I%20visited%20your%20portfolio"
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer">
+  💬
+</a>
+</body>
+</html>
