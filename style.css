@@ -328,3 +328,53 @@ body.dark .small-experience-card {
 
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
+
+@media (max-width: 768px) {
+
+  /* HERO STACK */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-left, .hero-right {
+    width: 100%;
+  }
+
+  /* REMOVE BIG MARGINS */
+  h1, h2, p {
+    margin: 10px 15px;
+  }
+
+  .section {
+    margin: 15px;
+    padding: 20px;
+  }
+
+  /* EXPERIENCE GRID FIX */
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT GRID FIX */
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PROJECT GRID FIX */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS GRID FIX */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* NAV MENU FIX */
+  .nav-menu a {
+    display: block;
+    margin: 8px 0;
+  }
+}
