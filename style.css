@@ -835,3 +835,34 @@ body.dark .hero-btn.secondary {
   left: 100%;
 }
 
+.contact-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-card{
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-decoration: none;
+  color: #0b2a4a;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: 0.3s ease;
+}
+
+.contact-card span{
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
